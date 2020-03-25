@@ -1,0 +1,10 @@
+tactician:
+  default_bus: command
+  commandbus:
+    command:
+      middleware:
+        - tactician.middleware.locking
+        - tactician.middleware.doctrine
+        - tactician.middleware.domainEventStore
+        - tactician.commandbus.command.middleware.command_handler
+

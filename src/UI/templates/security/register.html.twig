@@ -1,0 +1,25 @@
+{% extends 'default/index.html.twig' %}
+
+{% block title %}Sign Out{% endblock %}
+ {% block css %}
+     <link href="{{ asset('css/register.css') }}" rel="stylesheet">
+ {% endblock %}
+{% block id 'usuario' %}
+    {% block content %}
+        <div class="container marketing">
+            <div class="row">
+
+                <div class="col-lg-4">
+                    {{ form_start(form) }}
+                    {{ form_row(form.firstName) }}
+                    {{ form_row(form.lastName) }}
+                    {{ form_row(form.username) }}
+                    {{ form_row(form.email) }}
+                    {{ form_row(form.plainPassword.first) }}
+                    {{ form_row(form.plainPassword.second) }}
+                    <button type="submit">Register!</button>
+                    {{ form_end(form) }}
+                </div>
+            </div>
+        </div>
+    {% endblock %}
