@@ -48,20 +48,11 @@ https://stackoverflow.com/questions/51393459/symfony-error-an-exception-has-been
 yarn encore dev
 ```
 
-# Demo
-[Travel Planing](http://35.167.24.186/travelexperience/web/app.php/)
-
-## TODO
+## DONE
 1) CQRS (CommandBus tactician, QueryBus Symfony Messenger)
 1) Reactjs as a FrontEnd
-1) Redis
 1) ElasticSearch
-1) Comments travels and descriptions with markdown
-1) OERPUB Blob travel
 1) Docker
-1) GraphQL Integration
-1) JWT JAson web tockens
-1) Protobuf Services in PHP
 
 
 
