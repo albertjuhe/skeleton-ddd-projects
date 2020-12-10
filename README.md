@@ -12,11 +12,6 @@
 
 # Symfony 4
 
-wiki: https://github.com/albertjuhe/planing_travels/wiki
-
-Building Travel Experience: Plan travels colaborative, sharing travel content, upload photos, comment travels and vote the best travel.
-Create a map and add Locations, Routes, GPS tracks.
-
 ## Reactjs
 
 ### Install
